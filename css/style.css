@@ -1,0 +1,223 @@
+ *{ 
+    box-sizing: border-box;
+ }
+ 
+ body{ 
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center; 
+    background-color: rgb(255, 145, 0); 
+    color: rgb(234, 149, 149);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    background-image: url('../images/latto.png');
+
+ }
+
+ /* AGE VERIFICATION  */
+ #age-verification { 
+    background-color: aliceblue;
+    width: 100%; 
+    max-width: 500px;
+    padding: 40px 25px;
+    margin: 10vh auto 0; 
+    border-radius: 15px;
+
+}
+
+#age-verification h1 { 
+    color: rgb(239, 68, 68);
+    font-size: 32px;
+    margin-top: 0;
+
+}
+
+#age-verification h2 { 
+    font-size: 32px;
+}
+
+#age-verification button { 
+    padding: 12px 25px;
+    margin: 10px 5px; 
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* SLOT MACHINE */ 
+#slot-machine { 
+    display: none;
+    width: 100%; 
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px 20px; 
+    background-color: pink;
+    border: 5px solid white;
+    border-radius: 8px; 
+
+}
+
+#slot-machine h1 { 
+    color: black; 
+    font-size: 32px;
+    margin-top: 0;
+}
+
+/* BALANCE */
+#balance { 
+    font-size: 32px;
+    color: rgb(17 140 79);
+    margin-bottom: 25px;
+}
+
+/* REELS - Use Flexbox to display the reels */
+#reels { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin: 25px auto;
+}
+
+#reel-1, #reel-2, #reel-3 { 
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(247, 224, 90);
+    color: white;
+    border: 5px solid gold;
+    border-radius: 10px;
+    font-size: 50px;
+
+}
+
+/* CURRENT BET */
+#current-bet { 
+    font-size: 22px;
+    margin: 20px;
+    color: gold;
+}
+
+/* BET BUTONS */
+#bet-buttons { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0; 
+
+}
+
+#bet-buttons button { 
+    padding: 12px 20px; 
+    font-size: 16px; 
+    border: none;
+    border-radius: 8px;
+}
+
+/* SPIN BUTTON */ 
+#spin-button { 
+    width: 300px; 
+    padding: 15px 30px; 
+    font-size: 26px; 
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/* RESULT MESSAGE */
+#result-message{ font-size: 22px; 
+    font-weight: bold;
+    margin-top: 25px;
+    min-height: 30px;
+    
+}
+
+@media (max-width:600px) { 
+
+    body {
+        padding: 10px;
+    }
+
+    #age-verification {
+        padding: 30px 15px;
+        margin-top: 60px;
+    }
+
+    #age-verification h1 {
+        font-size: 32px;
+    }
+
+    #age-verification h2 {
+        font-size: 22px;
+    }
+
+    #slot-machine {
+        padding: 25px 12px;
+        margin-top: 20px;
+        border-width: 3px;
+    }
+
+    #slot-machine h1 {
+        font-size: 32px;
+    }
+
+    #balance {
+        font-size: 22px;
+    }
+
+    #reels {
+        gap: 8px;
+    }
+
+    #reel-1,
+    #reel-2,
+    #reel-3 {
+        width: 90px;
+        height: 90px;
+        font-size: 38px;
+        border-width: 4px;
+    }
+
+    #current-bet {
+        font-size: 20px;
+    }
+
+    #spin-button {
+        width: 250px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    #age-verification h1 {
+        font-size: 26px;
+    }
+
+    #age-verification h2 {
+        font-size: 18px;
+    }
+
+    #slot-machine h1 {
+        font-size: 25px;
+    }
+
+    #reel-1,
+    #reel-2,
+    #reel-3 {
+        width: 75px;
+        height: 75px;
+        font-size: 32px;
+    }
+
+    #spin-button {
+        width: 100%;
+        font-size: 22px;
+    }
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latto Slots Machine</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!--AGE VERIFICATION-->
+    <section id="age-verification"> <!-- id is what JavaScript will pull from-->
+        <h1>💰💰💰Slot Machine💰💰💰</h1>
+        <h2>Are you 21 or older?</h2>
+
+            <button id="yes-button">Yes</button>
+            <button id="no-button">No</button>
+            <p id="age-message"></p>
+    </section> 
+
+    <!-- SLOT MACHINE GAME-->
+    <!--Hide all elements here until "Yes" is clicked on Age Verification"-->
+
+    <section id="slot-machine" style="display: none;">
+        <h1>🎰Latto Slots</h1>
+        
+        <!--Starting Balance on Slot Machine-->
+        <div id="balance">
+            <p id="current-balance">Balance: $1,000</p>
+        </div>
+
+        <!--Three Reels for Slot Machin-->
+        <div id="reels">
+            <div id="reel-1">🎶</div>
+            <div id="reel-2">🎰</div>
+            <div id="reel-3">💸</div>
+        </div>
+
+        <!--Current Bet-->
+        <div id="current-bet">
+            <p id="current-bet-display">Current Bet: $5</p>
+        </div>
+
+        <!--Min Bet,  Max Bet and SPIN Button-->
+        <div id="bet-buttons"> 
+            <button id="min-bet">Bet $5</button>
+            <button id="max-bet">Bet $50</button>
+            <button id="spin-button">SPIN</button>
+        </div>
+
+        <!-- WIN OR LOSE MESSAGE to be displayed-->
+        <p id="result-message"></p>
+    </section>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
