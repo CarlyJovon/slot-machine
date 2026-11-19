@@ -1,24 +1,40 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰 Latto Slots: Slot Machine
+A fun, interactive slot machine game built with HTML, CSS, and JavaScript. Test your luck, place your bets, and see if you can hit the jackpot!
+<img width="2008" height="641" alt="Screenshot 2026-11-18 at 11 00 31 PM" src="https://github.com/user-attachments/assets/022b124c-5ae9-4c77-93e0-c71b5532e390" />
 
-### Goal: Build a Simple Slot Machine
+## Features
+- Age-verification welcome screen
+- Three interactive slot machine reels
+- Five unique reel symbols
+- Starting balance of $1,000 in simulated credits
+- Minimum bet of $5 and maximum bet of $50
+- Randomized spins and matching-symbol payouts
+- Dynamic balance updates and win/loss messages
+- Responsive design for mobile and desktop
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+## Tech Stack
+HTML - 
+CSS - 
+JavaScript 
 
-### How to submit your code for review:
+##  How to Play
+1. Confirm that you are 21 or older.
+2. Choose your bet: $5 or $50.
+3.  Click SPIN to play.
+4.   Match all three symbols to win!
+5.   Watch your balance update after each spin.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
+##  Getting Started
+1. Clone this repository:
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+git clone https://github.com/CarlyJovon/slot-machine.git
 ```
+
+2. Navigate to the project folder:
+```
+cd slot-machine
+```
+
+3. Open `index.html` in your browser.
+
+**Latto Slots** is a browser-based entertainment project that uses simulated credits. No real money or gambling transactions are involved.
