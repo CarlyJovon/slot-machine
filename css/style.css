@@ -5,10 +5,10 @@
  body{ 
     font-family: Arial, Helvetica, sans-serif ;
     text-align: center; 
-    background-color: rgb(255, 145, 0); 
+    background-color: white; 
     color: rgb(234, 149, 149);
     margin: 0;
-    padding: 20px;
+    padding: 25px 15px; 
     min-height: 100vh;
     background-image: url('../images/latto.png');
 
@@ -16,12 +16,14 @@
 
  /* AGE VERIFICATION  */
  #age-verification { 
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     width: 100%; 
     max-width: 500px;
-    padding: 40px 25px;
+    padding: 45px 25px;
     margin: 10vh auto 0; 
     border-radius: 15px;
+    border: 2px solid #e68ab6;
+
 
 }
 
@@ -44,14 +46,14 @@
     border-radius: 8px;
 }
 
-/* SLOT MACHINE */ 
+/* The SLOT MACHINE */ 
 #slot-machine { 
     display: none;
     width: 100%; 
-    max-width: 700px;
+    max-width: 750px;
     margin: 30px auto;
-    padding: 30px 20px; 
-    background-color: pink;
+    padding: 40px 25px; 
+    background-color: white; 
     border: 5px solid white;
     border-radius: 8px; 
 
@@ -63,7 +65,7 @@
     margin-top: 0;
 }
 
-/* BALANCE */
+/* THE BALANCE */
 #balance { 
     font-size: 32px;
     color: rgb(17 140 79);
@@ -81,7 +83,7 @@
 }
 
 #reel-1, #reel-2, #reel-3 { 
-    width: 120px;
+    width: 145px;
     height: 120px;
     display: flex;
     justify-content: center; 
@@ -107,7 +109,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    margin: 20px 0; 
+    margin: 25px 0; 
 
 }
 
